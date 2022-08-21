@@ -31,13 +31,14 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/galleryBtn"
+        android:id="@+id/toonBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Gallery"
+        android:text="ToonImage"
         app:layout_constraintBottom_toBottomOf="@+id/cameraBtn"
         app:layout_constraintStart_toEndOf="@+id/cameraBtn"
         app:layout_constraintTop_toTopOf="@+id/cameraBtn"
         tools:ignore="HardcodedText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
